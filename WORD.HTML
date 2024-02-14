@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>guess me</title> 
+	<link rel="stylesheet"
+		href="word.css" /> 
+	<script src="word.js"></script> 
+    <ul class="navlist">
+        <li><a href="home.html">home</a></li>
+        <script>
+            function reloadlocation() {
+                location.reload();
+            }
+        </script>
+
+</head> 
+
+<body> 
+	<div class="card"> 
+		<h1>Guess the word hehe</h1> 
+		<p> 
+			<b>Hint:</b> What reminds me of you♥
+		</p> 
+		<p id="displayWord"></p> 
+		<p>Guess one letter baby♥: 
+
+			<input type="text"
+				maxlength="1"
+				id="letter-input"> 
+		</p> 
+		<button onclick="guessLetter()"> 
+			Submit 
+		</button> 
+        <button onclick="reloadlocation()"> 
+			reset
+		</button> 
+	</div> 
+</body> 
+
+</html>
